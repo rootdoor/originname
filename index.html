@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Find your origine name</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src='./js/main.js'></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Name:</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Enter your name" id="input-name" aria-label="Name" aria-describedby="basic-addon1">
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title" id="display-name"></h5>
+                <h6 class="card-subtitle mb-2 text-muted" id="display-genre"></h6>
+                <h6 class="card-subtitle mb-2 text-muted" id="display-freq"></h6>
+                <p class="card-text" id="display-langage"></p>
+            </div>
+        </div>
+    </div>
+    <style>
+        .row{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</body>
+</html>
