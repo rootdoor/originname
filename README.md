@@ -1,6 +1,6 @@
 # Find your origin name
 
-Apres avoir télécherger les codes, tapez votre prenom et tapez votre prenom.
+Après avoir téléchargé les codes, tapez votre prénom et tapez votre prénom.
 
 ### Comment cela fonctionne
 
